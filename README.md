@@ -220,14 +220,6 @@ See `ARCHITECTURE.md` Section 9 for deployment model and infrastructure requirem
 - **Geospatial:** rasterio, geopandas, PostGIS
 - **Data Sources:** Google Earth Engine, OpenAQ API, ERA5
 
----
-
-## 📝 License
-
-[Specify your license]
-
----
-
 ## 🙏 Attribution
 
 - Data sources: OpenAQ, Copernicus Sentinel-5P/2, ECMWF ERA5, CPCB
