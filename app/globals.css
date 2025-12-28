@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-dark-border;
+  }
+  body {
+    @apply bg-dark-bg text-gray-100;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Leaflet map styles */
+.leaflet-container {
+  @apply bg-dark-bg;
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper {
+  @apply bg-dark-panel text-gray-100 border border-dark-border rounded-lg;
+}
+
+.leaflet-popup-tip {
+  @apply bg-dark-panel;
+}
+
+.leaflet-control-zoom a {
+  @apply bg-dark-panel text-gray-100 border-dark-border;
+}
+
+.leaflet-control-zoom a:hover {
+  @apply bg-dark-border;
+}
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-dark-bg;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-dark-border rounded-full;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600;
+}
+
